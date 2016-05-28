@@ -2,9 +2,9 @@ var React = require('react');
 
 var UserProfile = React.createClass({
 	propTypes: {
-		username: React.PropTyops.string.IsRequired,
-		bio: React.PropTyops.object.IsRequired
-	},
+    	username: React.PropTypes.string.isRequired,
+	    bio: React.PropTypes.object.isRequired
+	  },
   render: function(){
     return (
       <div>
